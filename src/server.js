@@ -5,6 +5,9 @@ const mongoose = require('mongoose');
 
 app.use(express.static('/static'))
 
+app.set('views','src/views');
+app.set('view engine', 'ejs');
+
 app.get('/',(req,res) => {
 	res.redirect('/getstarted');
 });
