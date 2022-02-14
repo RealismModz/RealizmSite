@@ -2,12 +2,42 @@
   <head>
     <link rel="stylesheet" href="css/getstarted.scss"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Get Started | RealizmModz</title>
   </head>
-  <body>
-    <span class="topNav" id="topNav">
-      <a id="title">RealizmModz</a>
-    </span>
+  <body onload="fixStyle();lol()">
 
+<div class="topnav" id="topnav">
+<a id="title">RealizmModz</a>
+<a>Roblox Scripts</a>
+<a>Realizm Bot</a>
+</div>
+
+<center><div id="e"></div></center>
+
+
+<script>
+function fixStyle() {
+	let topnav = document.getElementById("topnav");
+	topnav.style.width = $(document).width();
+	topnav.style.top = "0";
+	topnav.style.left = "0";
+}
+</script>
+<script>
+function lol() {
+
+	let bg = document.getElementById("bg");
+	
+
+	let width = Math.floor($(document).width() / 16 + "px";
+	let height = Math.floor($(document).height() / 9 + "px";
+	
+
+	const test = document.getElementById("e");
+
+	test.InnerHTML = width + ", " + height
+}
+</script>
   </body>
 </html>
