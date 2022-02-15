@@ -3,7 +3,7 @@ html, body {
     background-color:#353535;
     color:#FFFFFF;
     font-family:'Courier New', Courier, monospace;
-	overflow: hidden;
+	overflow-x: hidden;
 	background-image: url(/img/bg.jpg);
   }
 .topnav {
@@ -40,26 +40,5 @@ html, body {
 
 #title:hover {
 	background-color: rgba(255,255,255,0);
-	cursor: pointer;
-}
-
-.getStarted {
-	position: relative;
-	top:50vh;
-	border: none;
-	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(126,0,255,1) 25%, rgba(9,9,121,1) 50%, rgba(168,68,68,1) 75%, rgba(0,212,255,1) 100%);
-	color: white;
-	font-family: 'Courier New', Courier, monospace;
-	padding:5px 10px;
-	border-radius: 10px;
-	width: 35vw;
-	height: 10vh;
-	font-size: 8vh;
-	font-weight: bolder;
-	text-align: center;
-}
-
-.getStarted:hover {
 	cursor: pointer;
 }

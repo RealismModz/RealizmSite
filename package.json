@@ -2,21 +2,36 @@
   "name": "realizmsite",
   "version": "1.0.0",
   "description": "RealizmSite",
-  "main": "src/server.js",
+  "main": "src/index.js",
   "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "body-parser": "^1.19.1",
+    "clear-module": "^4.1.2",
+    "currency-system": "^2.6.48",
+    "discord-api-types": "^0.27.1",
+    "discord.js": "^13.6.0",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "express-session": "^1.17.2",
+    "hcaptcha": "^0.1.1",
+    "mongodb": "^4.3.1",
     "mongoose": "^6.2.1",
+    "node-fetch": "^3.2.0",
     "nodemon": "^2.0.15",
     "passport": "^0.5.2",
     "passport-local": "^1.0.0",
-    "passport-local-mongoose": "^6.1.0"
+    "passport-local-mongoose": "^6.1.0",
+    "random-hex": "^1.0.2",
+    "uwuify2": "^1.0.1",
+    "youtube-dl-wrap": "^2.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.27.7"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
